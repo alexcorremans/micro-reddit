@@ -3,4 +3,5 @@ class Post < ApplicationRecord
   validates :url, presence: true,
                   format: { with: URL_REGEXP }
   belongs_to :user
+  has_many :comments
 end
