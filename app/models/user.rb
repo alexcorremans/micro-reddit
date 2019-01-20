@@ -7,4 +7,5 @@ class User < ApplicationRecord
                     format: { with: /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i }
   validates :password,  presence: true,
                         length: { in: 6..16 }
+  has_many :posts
 end
