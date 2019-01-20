@@ -1,24 +1,5 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails app is a very junior version of Reddit. It has the data structures necessary to support link submissions and commenting. It doesn't have a frontend, since the project focuses on practising working with data models. This includes database migrations and model validations and associations. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+From The Odin Project's [curriculum](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
